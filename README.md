@@ -32,6 +32,11 @@ project managers, business owners, ops leads, domain experts.
 The `.skill` file is just a zip of this folder. Unzip it into `~/.claude/skills/`
 if you have the packaged version.
 
+**Not sure where that folder is?** [INSTALL.md](INSTALL.md) has the full card:
+how to find your skills folder on Mac, Linux and Windows/WSL, plus two ways to
+install — from the `.skill` file (no GitHub account needed) or by cloning this
+repo. Written for people who don't use a terminal much.
+
 ## Use it
 
 - Type `/simplify` or "simplify this", "give me steps", "in plain English".
@@ -43,3 +48,6 @@ if you have the packaged version.
 - `SKILL.md` — the skill itself.
 - `references/glossary.md` — plain-words cheat-sheet of tech terms and basic
   commands; grows as new terms come up.
+- `INSTALL.md` — plain-language install card, including how to find your skills
+  folder on Mac, Linux and Windows/WSL.
+- `LICENSE` — MIT. Use it, change it, pass it on.
