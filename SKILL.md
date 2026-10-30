@@ -57,6 +57,20 @@ every process table carries a **Where** column. Use this shape:
 **browser**, or a **named folder**. If a command depends on being in a certain
 folder, say so. Never leave it implied.
 
+**Never put a command inside a table cell.** Tables mangle commands: pipes get
+escaped, long lines wrap, and copying a cell picks up stray characters. The
+table cell says what to do ("Paste the command from your clipboard"); the
+command itself goes in its own fenced code block, on one line, directly under
+the table. If you can place it on the person's clipboard (e.g. `clip.exe` on
+Windows/WSL, `pbcopy` on macOS), do that too and say so — one command per
+clipboard, so hand them over one at a time.
+
+### 2b. Show the time left after every step
+In any multi-step job, end each reply that completes a step with a short
+**Time left** block: the steps still to go, an estimate for each, the total
+remaining and the expected finish time. When a step ran longer or shorter than
+planned, say so and re-estimate — never quietly keep the old figure.
+
 ### 3. Plain words, no jargon
 Write like you're talking to a smart colleague who doesn't code. Cut
 consultant-speak and abstract nouns. Short sentences. If a normal word works,
